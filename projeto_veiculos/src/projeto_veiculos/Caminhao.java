@@ -9,11 +9,14 @@ public class Caminhao extends Veiculo {
     }
 
    
-    public void descarregar() {
-        System.out.println("O caminhão está descarregando.");
-    }
-
+    
 	public void acelerar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	public void frear() {
 		// TODO Auto-generated method stub
 		
 	}

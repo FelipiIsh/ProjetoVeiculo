@@ -7,9 +7,7 @@ public class Moto extends Veiculo {
         super(marca, modelo, ano);
            }
 
-       public void empinar() {
-        System.out.println("A moto está empinando.");
-    }
+      
 
 	public void acelerar() {
 		// TODO Auto-generated method stub
