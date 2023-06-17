@@ -2,15 +2,20 @@ package projeto_veiculos;
 
 public class Veiculo {
 
-	private String marca, modelo, cor;
+	private String marca, modelo, tipoCombustivel, cor;
 	private int ano;
+	private double potencia;
 
-	public Veiculo(String marca, String modelo, String cor, int ano) {
+	public Veiculo(String marca, String modelo, String cor, String tipoCombustivel, int ano, double potencia) {
 		super();
 		this.marca = marca;
 		this.modelo = modelo;
-		this.ano = ano;
 		this.cor = cor;
+		this.setTipoCombustivel(tipoCombustivel);
+		this.ano = ano;
+		this.setPotencia(potencia);
+	
+		
 	}
 
 	public String getMarca() {
@@ -43,6 +48,22 @@ public class Veiculo {
 
 	public void setCor(String cor) {
 		this.cor = cor;
+	}
+
+	public String getTipoCombustivel() {
+		return tipoCombustivel;
+	}
+
+	public void setTipoCombustivel(String tipoCombustivel) {
+		this.tipoCombustivel = tipoCombustivel;
+	}
+
+	public double getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(double potencia2) {
+		this.potencia = potencia2;
 	}
 
 }
